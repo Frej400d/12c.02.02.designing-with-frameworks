@@ -1,0 +1,52 @@
+:root {
+  --font-display: "Forum", cursive;
+  --font-paragraph: "Work Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--font-display);
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: var(--h1-color);
+}
+
+nav {
+  background-color: var(--h1-color);
+}
+
+footer {
+  color: #edf0f3;
+}
+
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  color-scheme: light;
+  --background-color: #fff;
+  --color: #3d0c41;
+  --h1-color: #180a19;
+  --h2-color: #180a19;
+  --h3-color: #180a19;
+  --h4-color: #180a19;
+  --muted-color: #fdf1ff;
+  --muted-border-color: #edf0f3;
+  --primary: #f20c70;
+  --primary-hover: #3d0c41;
+  --primary-focus: rgba(89, 5, 100, 0.125);
+  --primary-inverse: #fff;
+}
